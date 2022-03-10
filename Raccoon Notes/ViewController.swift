@@ -13,12 +13,9 @@ class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet var titleTextView: UITextView!
     @IBOutlet var noteBodyTextView: UITextView!
     
-    let text = "Тут будет какой-то текст для заголовка, и лучше, чтобы его было как можно больше, а потом еще больше!!!"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        titleTextView.text = text
         
         
         
